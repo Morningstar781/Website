@@ -1,0 +1,101 @@
+nav {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+nav ul li a:hover {
+    color: red;  
+}
+
+
+h1{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    max-width: 500px;
+    margin-left: 400px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh; 
+    background: url(https://images.immediate.co.uk/production/volatile/sites/3/2020/08/playstation-5-77d37a0.jpg) center/cover no-repeat;
+    
+}
+
+
+
+
+
+h3{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    max-width: 1000px;
+    margin-left: 200px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    width: 250px; 
+    height: 350px; 
+    overflow: hidden;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px; 
+}
+
+.unlimited-text{
+    margin-left: 150px;
+    text-align: left;
+    max-width: 1000px;
+    font-size: 20px;
+    
+}
